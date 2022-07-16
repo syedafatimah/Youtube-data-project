@@ -6,7 +6,7 @@ Created on Thu Jul 14 11:39:03 2022
 """
 
 # Scrape Comments for SQL Using Python Through The Youtube Data API
-api_key = "AIzaSyAkRyajCrkhQR2OfHFq-U40GN85X66cgK0" 
+api_key = "XXX" 
 #api_key = "xxxxXXXXxxxxXXXXxxxxXXXXxxxxXXXXxxxxXXX" # Replace this dummy api key with your own.
 
 from apiclient.discovery import build
