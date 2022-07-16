@@ -5,14 +5,16 @@ Created on Thu Jul 14 11:39:03 2022
 @author: Syeda Fatima
 """
 
+# Scrape Comments for SQL Using Python Through The Youtube Data API
 api_key = "AIzaSyAkRyajCrkhQR2OfHFq-U40GN85X66cgK0" 
+#api_key = "xxxxXXXXxxxxXXXXxxxxXXXXxxxxXXXXxxxxXXX" # Replace this dummy api key with your own.
 
 from apiclient.discovery import build
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 import pandas as pd
 
-ID = input("Enter ID:") # Replace this YouTube video ID with your own.
+ID = "FlkLANJmpPw" # Replace this YouTube video ID with your own.
 
 box = [['Name', 'Comment', 'Time', 'Likes', 'Reply Count']]
 
